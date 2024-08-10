@@ -1,0 +1,70 @@
+.Circle-Animation {
+  width: 150px; /* Smaller width */
+  height: 150px; /* Smaller height */
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000; 
+  border-radius: 50%;
+  position: absolute;
+  right: 20rem;
+  overflow: hidden; /* Hide overflow */
+}
+
+.Inside-Circle {
+  width: 80px; /* Smaller width */
+  height: 80px; /* Smaller height */
+  border: 1px solid #000000; 
+  border-radius: 50%;
+}
+
+.center-image {
+  position: absolute;
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  border-radius: 50%; /* Make the image circular */
+}
+
+section {
+  position: absolute;
+  animation: animate 10.5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.letter {
+  position: absolute;
+  font-family: Poppins;
+  top: -70px;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  color: rgb(73, 73, 73);
+  transform-origin: 0 70px;
+}
+
+@media (max-width: 1200px) {
+  .Circle-Animation {
+    right: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Circle-Animation {
+    right: 6rem;
+  }
+}
+
+@media (max-width: 378px) {
+  .Circle-Animation {
+    display: none; /* Hides the element */
+  }
+}

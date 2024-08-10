@@ -1,0 +1,43 @@
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #049b3e; /* Fallback color in case image doesn't load */
+    background-image: url('../../../../../public/play.jpg'); /* Set background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    box-shadow: 1px 1px 10px #575757;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: jump 2s ease-in-out infinite;
+    position: relative;
+    top: 25rem;
+    right: 33rem;
+  }
+  
+  @keyframes jump {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-10px);
+    }
+  }
+  
+  @media (max-width: 1545px) {
+    .circle {
+      top: 20rem;
+      right: 23rem;
+    }
+  }
+  
+
+  @media (max-width: 1045px) {
+    .circle {
+      display: none;
+      top: 20rem;
+      right: 23rem;
+    }
+  }

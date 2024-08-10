@@ -1,0 +1,68 @@
+.cmn-btn {
+    /* Common button styles */
+    background-color: #007bff; /* Blue color for the button background */
+    color: #fff; /* White color for the button text */
+    text-decoration: none; /* Remove default underline */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .cmn-btn:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  /* Additional styles for alignment and spacing */
+  .d-flex {
+    display: flex;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .gap-4 {
+    gap: 1rem;
+  }
+  
+  .gap-xxl-6 {
+    gap: 1.5rem;
+  }
+  
+  .radius30 {
+    border-radius: 30px; /* Rounded corners */
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .py-xxl-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  
+  .px-xxl-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  /* Custom styles for the arrow icon */
+  .ti-arrow-up-right {
+    /* Add your styles for the arrow icon */
+  }
+  
+  .fs-six {
+    /* Add your styles for the font size */
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  

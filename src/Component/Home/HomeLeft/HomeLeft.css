@@ -1,0 +1,22 @@
+
+.Box-Engineer {
+    width: 18vw; /* Set width to 25% of viewport width */
+    height: 8vh; /* Set height to 8% of viewport height */
+    border: 2px solid rgb(0, 206, 0); /* Set border to 2px solid green */
+    border-radius: 30px; /* Set border radius to 30px */
+  }
+
+ 
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    /* Adjust width and height for smaller screens */
+    .LeftHome{
+        padding: 3px;
+        margin: 3px;
+    }
+    .Box-Engineer {
+      width: 70vw; /* Set width to 80% of viewport width */
+      height: 8vh; /* Set height to auto to maintain aspect ratio */
+    }
+  }
+  
